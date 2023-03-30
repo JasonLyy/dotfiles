@@ -37,10 +37,12 @@ echo "5. Remove old dotfiles"
 rm -rf ~/.zshrc
 rm -rf ~/.gitconfig
 rm -rf ~/.p10k.zsh
+rm -rf ~/Library/Application\ Support/Code/User/settings.json
 
 echo "6. Setup symlinks"
 ln -sf ~/dotfiles/.zshrc ~/.zshrc
 ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
 ln -sf ~/dotfiles/.p10k.zsh ~/.p10k.zsh
+ln -sf ~/dotfiles/settings.json ~/Library/Application\ Support/Code/User/settings.json
 
 zsh
