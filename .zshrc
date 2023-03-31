@@ -18,3 +18,4 @@ antigen theme romkatv/powerlevel10k
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 antigen apply
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

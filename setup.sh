@@ -7,6 +7,8 @@ brew update
 echo "2. Install Brew packages"
 brew install --cask iterm2
 
+brew install fzf
+
 brew tap homebrew/cask-fonts
 brew install font-fira-code
 brew install font-meslo-lg
